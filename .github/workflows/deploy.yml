@@ -21,6 +21,7 @@ jobs:
       - name: Install the dependencies
         run: |
           python -m pip install -r requirements.txt
+          python -m pip install RISE
       - name: Build the JupyterLite site
         run: |
           cp README.md content
