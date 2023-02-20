@@ -21,7 +21,7 @@ jobs:
       - name: Install the dependencies
         run: |
           python -m pip install -r requirements.txt
-          python -m pip install -r pip install https://github.com/ipython-contrib/jupyter_contrib_nbextensions/tarball/master
+          python -m pip install -r https://github.com/ipython-contrib/jupyter_contrib_nbextensions/tarball/master
           python -m pip install -r rise
       - name: Build the JupyterLite site
         run: |
