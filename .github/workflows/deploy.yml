@@ -25,7 +25,7 @@ jobs:
         run: |
           cp README.md content
           jupyter lite build --contents content --output-dir dist          
-          python -m pip -r install RISE
+          python -m pip install RISE
           jupyter nbextension install rise --py --sys-prefix    
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
