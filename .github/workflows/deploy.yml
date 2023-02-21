@@ -25,7 +25,9 @@ jobs:
         run: |
           cp README.md content
           python -m pip install RISE
-          jupyter nbextension install rise --py --sys-prefix    
+          jupyter nbextension install rise --py --sys-prefix
+          jupyter labextension install @rahlir/theme-gruvbox
+          python -m pip install jupyterlab_rise
           jupyter lite build --contents content --output-dir dist           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
