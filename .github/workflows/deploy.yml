@@ -20,29 +20,7 @@ jobs:
           python-version: 3.8
       - name: Install the dependencies
         run: |
-          python -m pip install -r bqplot
-          python -m pip install -r ipycanvas>=0.9.1
-          python -m pip install -r ipyevents>=2.0.1
-          python -m pip install -r ipyleaflet
-          python -m pip install -r ipympl>=0.8.2
-          python -m pip install -r ipywidgets>=7.7,<8
-          python -m pip install -r jupyterlab~=3.4.3
-          python -m pip install -r jupyterlab-drawio
-          python -m pip install -r jupyterlab-language-pack-fr-FR
-          python -m pip install -r jupyterlab-language-pack-zh-CN
-          python -m pip install -r jupyterlab-fasta>=3,<4
-          python -m pip install -r jupyterlab-geojson>=3,<4
-          python -m pip install -r jupyterlab-tour
-          python -m pip install -r jupyterlab_miami_nights
-          python -m pip install -r jupyterlite==0.1.0b12
-          python -m pip install -r jupyterlite-p5-kernel==0.1.0a12
-          python -m pip install -r jupyterlite-xeus-lua==0.3.1
-          python -m pip install -r jupyterlite-xeus-wren==0.2.1
-          python -m pip install -r jupyterlite-xeus-sqlite==0.2.1
-          python -m pip install -r plotly>=5,<6
-          python -m pip install -r theme-darcula
-          python -m pip install -r nbconvert
-          python -m pip install -r RISE<5.2.0
+          python -m pip install -r requirements.txt
       - name: Build the JupyterLite site
         run: |
           cp README.md content
