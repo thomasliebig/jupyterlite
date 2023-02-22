@@ -5,9 +5,13 @@ node_modules/
 *.egg-info/
 .ipynb_checkpoints
 *.tsbuildinfo
+*.swp
+*~
 
 # Created by https://www.gitignore.io/api/python
 # Edit at https://www.gitignore.io/?templates=python
+old/
+test/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
