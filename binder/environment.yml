@@ -1,10 +1,20 @@
 channels:
   - conda-forge
+  - defaults
 dependencies:
-  - python
+  - python=3.6
+  - cython
+  - ipython
+  - ipyparallel
+  - ipywidgets
   - numpy
   - matplotlib
+  - mpi4py
+  - networkx
   - pandas
+  - scikit-image
+  - scikit-learn
+  - sympy
   - bokeh
   - rise
   - pip:
