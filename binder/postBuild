@@ -1,4 +1,2 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable splitcell/splitcell
-jupyter-nbextension install rise --py --sys-prefix --symlink
-jupyter-nbextension enable rise --py --sys-prefix
