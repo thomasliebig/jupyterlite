@@ -24,10 +24,9 @@ jobs:
       - name: Build the JupyterLite site
         run: |
           cp README.md content
+          jupyter lite build --contents content --output-dir dist          
           python -m pip install RISE
-          jupyter nbextension install rise --py --sys-prefix
-          python -m pip install jupyterlab_rise
-          jupyter lite build --contents content --output-dir dist           
+          jupyter-nbextension install rise --py --sys-prefix          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
@@ -49,3 +48,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+
