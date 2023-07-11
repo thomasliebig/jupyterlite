@@ -1,2 +1,4 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable splitcell/splitcell
+choco install manimce
+pip install manim
