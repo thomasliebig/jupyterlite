@@ -1,6 +1,13 @@
 FROM docker.io/manimcommunity/manim:v0.18.0
 
 COPY --chown=manimuser:manimuser . /manim
+
+RUN mkdir -p ~/miniconda3
+RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+RUN bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+RUN rm -rf ~/miniconda3/miniconda.sh
+RUN ~/miniconda3/bin/conda init bash
+
 RUN conda install python=3.7
 RUN conda install rise
 RUN conda install cython
