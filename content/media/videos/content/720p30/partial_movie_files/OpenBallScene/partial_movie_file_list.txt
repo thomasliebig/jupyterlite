@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/liebig/Documents/lehre/folien/myjupyterlite/content/media/videos/content/720p30/partial_movie_files/OpenBallScene/2370118711_3503811605_1540402008.mp4'
+file 'file:C:/Users/liebig/Documents/lehre/folien/myjupyterlite/content/media/videos/content/720p30/partial_movie_files/OpenBallScene/934398405_3890345977_1926677396.mp4'
+file 'file:C:/Users/liebig/Documents/lehre/folien/myjupyterlite/content/media/videos/content/720p30/partial_movie_files/OpenBallScene/934398405_3803390124_3059288516.mp4'
+file 'file:C:/Users/liebig/Documents/lehre/folien/myjupyterlite/content/media/videos/content/720p30/partial_movie_files/OpenBallScene/934398405_1141282389_1256932455.mp4'
+file 'file:C:/Users/liebig/Documents/lehre/folien/myjupyterlite/content/media/videos/content/720p30/partial_movie_files/OpenBallScene/934398405_1219187615_3560268785.mp4'
+file 'file:C:/Users/liebig/Documents/lehre/folien/myjupyterlite/content/media/videos/content/720p30/partial_movie_files/OpenBallScene/934398405_1141282389_372382198.mp4'
