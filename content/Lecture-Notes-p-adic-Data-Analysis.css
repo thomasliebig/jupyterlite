@@ -27,6 +27,13 @@ div.output_area pre{
   color: #ffffff;
 }
 
+.alert-info {
+  background-color:#983082;
+  border-color: #983082;
+  color: #ffffff;
+}
+
+
 .rise-enabled div {
   color: #ffffff;
 }
