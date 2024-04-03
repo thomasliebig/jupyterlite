@@ -16,5 +16,5 @@ open notebooks in JupyterLite deployed as a static site to GitHub Pages.
 ➡️ **https://thomasliebig.github.io/jupyterlite/lab/index.html**
 
 ## Self-host 
-* Locally on Jupyter Notebook with RISE
+* Locally on Jupyter Notebook with RISE (e.g., use my vagrant environment https://github.com/thomasliebig/RISE-environment)
 * follow the conda environment described in `binder` folder
