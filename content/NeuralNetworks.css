@@ -1,0 +1,123 @@
+/*********************************************
+ * Set ROOT Information
+ *********************************************/
+
+/* set UU primary color palette */
+:root {
+  --color-1: #ECF0F1; /* Text color */
+  --color-2: #1ABC9C; /* Highlight color 1 */
+  --color-3: #E67E22; /* Highlight color 2, newly added */
+  --color-4: #2C3E50; /* Background color */
+}
+
+/*********************************************
+ * Set FONT Information
+ *********************************************/
+
+body {
+	background-color: var(--color-4);
+	color: var(--color-1);
+}
+
+div {
+	background-color: var(--color-4);
+	color: var(--color-1);
+}
+
+div.output_area pre {
+  color: var(--color-1);
+}
+
+.alert-info {
+  background-color: var(--color-3); /* Use new highlight color 2 for alerts */
+  border-color: var(--color-3);
+  color: var(--color-1);
+}
+
+.rise-enabled div {
+  color: var(--color-1);
+}
+
+/* Prompts */
+div.output_prompt {
+	color: var(--color-3); /* Use new highlight color 2 for output prompts */
+}
+div.input_prompt {
+	color: var(--color-2); /* Highlight color 1 for input prompts */
+}
+
+.rise-enabled #help_b,
+.rise-enabled #exit_b,
+.rise-enabled .chalkboard-button {
+  color: var(--color-2); /* Highlight color 1 for buttons */
+}
+
+.reveal h2, .reveal h3, .reveal h5, .reveal h6 {
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.5;
+  color: var(--color-1);
+}
+
+.reveal h1, .reveal h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  color: var(--color-1);  
+}
+
+body.rise-enabled div.inner_cell>div.text_cell_render.rendered_html,
+.reveal body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 80%;
+  color: var(--color-1);
+}
+
+.reveal img {
+  background: rgba(255, 255, 255, 0) !important;
+}
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
+  border-right-color: var(--color-2); }
+
+.reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
+  border-left-color: var(--color-2); }
+
+.reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
+  border-bottom-color: var(--color-2); }
+
+.reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
+  border-top-color: var(--color-2); }
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: var(--color-3); /* Use new highlight color 2 for hover */
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: var(--color-3); /* Use new highlight color 2 for hover */
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: var(--color-3); /* Use new highlight color 2 for hover */
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: var(--color-3); /* Use new highlight color 2 for hover */
+}
+    
+.reveal .footer {
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  bottom: 0;
+  color: #ECF0F1; /* Light gray text color */
+  background-color: #2C3E50; /* Dark navy background color */
+  font-family: 'Work Sans', sans-serif;
+  font-size: 80%;
+  z-index: 30;
+}

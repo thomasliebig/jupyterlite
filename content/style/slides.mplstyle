@@ -1,0 +1,14 @@
+text.color: ECF0F1 
+
+axes.facecolor:     2C3E50   # axes background color
+axes.edgecolor:     ECF0F1   # axes edge color
+                             # text.color as default value
+axes.labelcolor:    ECF0F1
+
+axes.prop_cycle: cycler('color', ['4a4ad8', 'ec6469', '35cdb4', 'e82e82', '983082', '8c564b', '59bdf7', '706f6f', '1ABC9C', 'E67E22'])
+
+xtick.color:         ECF0F1   # color of the ticks
+ytick.color:         ECF0F1   # color of the ticks
+
+figure.facecolor:   2C3E50     # figure face color
+figure.edgecolor:   2C3E50     # figure edge color
